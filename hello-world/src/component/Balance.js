@@ -26,7 +26,7 @@ function moneyFormatter(num) {
 
     return (
         <>
-            <h4>Your Balance</h4>
+            <h4>Your Balance is</h4>
             <h1>{moneyFormatter(total)}</h1>
         </>
     )
